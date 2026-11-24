@@ -38,7 +38,7 @@ col_z1, col_z2, col_z3 = st.columns([1, 1, 1])
 with col_z1:
     zona = st.selectbox("Selecciona la zona", options=["Sur", "Norte"], index=0)
 with col_z2:
-    usuarios = ["Sofi B", "Engel B", "User_01", "User_02"]
+    usuarios = ["Sofi B", "Micaella P", "Jessica O", "Pamela G"]
     usuario_seleccionado = st.selectbox("Selecciona tu usuario:", usuarios)
 with col_z3:
     st.write("")
